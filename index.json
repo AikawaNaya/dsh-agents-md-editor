@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "title": {
+    "en": "AikawaNaya's DSH plugins",
+    "zh": "相川奈夜的 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins published by AikawaNaya for DeepSeek Harness.",
+    "zh": "AikawaNaya（相川奈夜）发布的 DeepSeek Harness 插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-agents-md-editor",
+      "title": {
+        "en": "Agent Instructions Editor",
+        "zh": "代理说明编辑器"
+      },
+      "description": {
+        "en": "A left-sidebar panel that views, edits and saves ~/.dsh/AGENTS.md live, with version-guarded saves and atomic writes.",
+        "zh": "在左侧栏打开面板，实时查看、修改并保存 ~/.dsh/AGENTS.md；保存带版本校验，写入是原子替换。"
+      },
+      "author": "AikawaNaya",
+      "homepage": "https://github.com/AikawaNaya/dsh-agents-md-editor#readme",
+      "repository": {
+        "url": "https://github.com/AikawaNaya/dsh-agents-md-editor"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFHRU5UUy5tZCBlZGl0b3IiPgogIDxyZWN0IHg9IjgiIHk9IjYiIHdpZHRoPSIzNiIgaGVpZ2h0PSI0OCIgcng9IjYiIGZpbGw9IiNlYWYzZmIiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHBhdGggZD0iTTMyIDZoNWE3IDcgMCAwIDEgNyA3djciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTggMjBoMTZNMTggMjhoMTZNMTggMzZoMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0N2JiZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNTUiLz4KICA8cGF0aCBkPSJNNDYuNCAzMC42IDU3IDQxLjJhMyAzIDAgMCAxIDAgNC4ybC04LjMgOC4zYTMgMyAwIDAgMS00LjIgMEwzMy45IDQzLjF6IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPHBhdGggZD0iTTMzLjkgNDMuMSA0Ni40IDMwLjZsMi42LTcuOWExLjYgMS42IDAgMCAxIDIuMS0yLjFsNy45LTIuNi0yLjYgNy45LTguMSA4LjF6IiBmaWxsPSIjMWQ1ZjkzIi8+CiAgPHBhdGggZD0ibTQxLjYgMzMuNiA2LjkgNi45IiBmaWxsPSJub25lIiBzdHJva2U9IiNlYWYzZmIiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuODUiLz4KPC9zdmc+Cg==",
+      "metadata": {
+        "keywords": [
+          "agents-md",
+          "editor",
+          "markdown",
+          "instructions"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793762441,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/AikawaNaya/dsh-agents-md-editor",
+            "commit": "5824b72b7263c5d39e07f2ff9e490760b4926d7b"
+          }
+        }
+      ]
+    }
+  ]
+}

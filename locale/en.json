@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent Instructions Editor",
+    "description": "Opens a panel from the left sidebar to view, edit and save ~/.dsh/AGENTS.md live."
+  }
+}

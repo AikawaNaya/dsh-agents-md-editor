@@ -1,0 +1,12 @@
+# dsh-agents-md-editor bundle patch.
+#
+# One row: the Host half that mounts the fenced /agents-md-editor/api route,
+# plus the `dsh.client` half that registers the left-column entry and the
+# editor page. `filePath` is the single file the plugin may read and write —
+# change it here (or in the profile's own cordis.patch.yml) to edit a different
+# AGENTS.md.
+- insert:
+    - id: agents-md-editor
+      name: 'dsh-agents-md-editor'
+      config:
+        filePath: '~/.dsh/AGENTS.md'

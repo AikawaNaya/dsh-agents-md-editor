@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "代理说明编辑器",
+    "description": "在左侧栏打开一个面板，实时查看、修改并保存 ~/.dsh/AGENTS.md。"
+  }
+}

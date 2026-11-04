@@ -1,0 +1,59 @@
+{
+  "name": "dsh-agents-md-editor",
+  "version": "1.0.0",
+  "description": "View, edit and save ~/.dsh/AGENTS.md from a left sidebar panel in the DSH Web UI.",
+  "type": "module",
+  "license": "MIT",
+  "author": "AikawaNaya",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AikawaNaya/dsh-agents-md-editor.git"
+  },
+  "homepage": "https://github.com/AikawaNaya/dsh-agents-md-editor#readme",
+  "bugs": {
+    "url": "https://github.com/AikawaNaya/dsh-agents-md-editor/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "ui",
+    "agents-md",
+    "editor"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/host.test.mjs"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

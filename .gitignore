@@ -1,0 +1,10 @@
+# Dependency and build output
+node_modules/
+
+# pnpm pack output
+*.tgz
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+*.log
